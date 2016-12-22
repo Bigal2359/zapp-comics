@@ -45,7 +45,7 @@
 				<li><a href="#store-locations" class="wayne">WAYNE</a></li>
 				<li><a href="#store-locations" class="manalapan">MANALAPAN</a></li>
 			</ul>
-			<div class="address">
+			<div class="address wayne-info">
 				<h5>Zapp Comics Wayne</h5>
 				<p>
 					574 Valley Road<br>
