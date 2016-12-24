@@ -2304,11 +2304,16 @@ body #motopress-main.main-holder .footer-widgets .extra-wrap { padding-left:5px;
 .location-2 .store-locations a.manalapan {
 	color: #ed462f;
 }
-.header .store-locations {
+.home-btn {
+	color: #fff;
+}
+.header .store-locations,
+.home-btn {
 	padding-top: 10px;
 }
 @media (min-width: 500px) {
-	.header .store-locations {
+	.header .store-locations,
+	.home-btn {
 		padding-top: 0;
 		position: absolute;
 		top: 10px;
