@@ -4,7 +4,7 @@
         <div class="span8" data-motopress-type="static" data-motopress-static-file="static/static-shop-nav.php">
            <?php get_template_part("static/static-shop-nav"); ?> 
         </div>
-        <a class="home-btn comic-con" href="./">VISIT ZAPPCOMICS.COM</a>
+        <a class="home-btn comic-con" href="<?php echo home_url(); ?>/">VISIT ZAPPCOMICS.COM</a>
     	<div class="store-locations main-site">
     		<ul>
     			<li><a href="#store-footer" class="wayne">WAYNE</a></li>
