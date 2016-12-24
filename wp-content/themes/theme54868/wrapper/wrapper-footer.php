@@ -13,19 +13,19 @@
     </div>
 <?php } ?>
 <div id="store-footer" class="row footer-widgets4">
-	<div class="store-locations">
+	<div class="store-locations main-site">
 		<ul>
 			<li><a href="#store-locations" class="wayne">WAYNE</a></li>
 			<li><a href="#store-locations" class="manalapan">MANALAPAN</a></li>
 		</ul>
 	</div>
-	<div class="span3" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-7">
+	<div class="span3 main-site" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-7">
 		<?php dynamic_sidebar("footer-sidebar-7"); ?>
 	</div>
-    <div class="span4" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-8">
+    <div class="span4 main-site" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-8">
 		<?php dynamic_sidebar("footer-sidebar-8"); ?>
 	</div>
-    <div class="span5" data-motopress-type="dynamic-sidebar">
+    <div class="span5 main-site" data-motopress-type="dynamic-sidebar">
 		<?php dynamic_sidebar( 'google' ); ?>
         <div class="caption_info wayne-info">
 			<p><strong>Phone:</strong> <span>973-628-4500</span></p>
@@ -38,7 +38,7 @@
         	<p><strong><a href="https://www.google.com/maps/dir/''/700+Tennent+Rd,+Manalapan+Township,+NJ+07726/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c3d3d74f702797:0x6f042365caf4db83?sa=X&ved=0CB4QwwUwAGoVChMIg4TGjceqyAIVQ3o-Ch0-uQaV" target="_blank">Get Directions</a></strong></p>
         </div>
 	</div>
-	<div class="span3" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-7">
+	<div class="span3 comic-con" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-7">
 		<div id="text-8">
 			<h4>Tickets Available in Store Only</h4>
 			<ul>
@@ -58,10 +58,10 @@
 			</div>
 		</div>
 	</div>
-    <div class="span4" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-8">
+    <div class="span4 comic-con" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-8">
 		<?php dynamic_sidebar("footer-sidebar-8"); ?>
 	</div>
-    <div class="span5" data-motopress-type="dynamic-sidebar">
+    <div class="span5 comic-con" data-motopress-type="dynamic-sidebar">
 		<?php dynamic_sidebar( 'google' ); ?>
         <div class="caption_info wayne-info">
 			<p><strong>Phone:</strong> <span>973-628-4500</span></p>
@@ -76,7 +76,7 @@
 	</div>
 </div>
 <div class="row copyright">
-	<div class="span6 pull-left" data-motopress-type="static" data-motopress-static-file="static/static-footer-text.php">
+	<div class="span6 pull-left main-site" data-motopress-type="static" data-motopress-static-file="static/static-footer-text.php">
 		<?php get_template_part("static/static-footer-text"); ?>
 	</div>
 	<div class="span6 pull-left comic-con">
