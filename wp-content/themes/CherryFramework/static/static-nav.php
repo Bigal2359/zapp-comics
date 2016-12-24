@@ -1,6 +1,6 @@
 <?php /* Static Name: Navigation */ ?>
 <!-- BEGIN MAIN NAVIGATION -->
-<nav class="nav nav__primary clearfix">
+<nav class="nav nav__primary clearfix main-site">
 <?php if (has_nav_menu('header_menu')) {
 	wp_nav_menu( array(
 		'container'      => 'ul',

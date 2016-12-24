@@ -4,8 +4,8 @@
         <div class="span8" data-motopress-type="static" data-motopress-static-file="static/static-shop-nav.php">
            <?php get_template_part("static/static-shop-nav"); ?> 
         </div>
-        <a class="home-btn" href="./">VISIT ZAPPCOMICS.COM</a>
-    	<div class="store-locations">
+        <a class="home-btn comic-con" href="./">VISIT ZAPPCOMICS.COM</a>
+    	<div class="store-locations main-site">
     		<ul>
     			<li><a href="#store-footer" class="wayne">WAYNE</a></li>
     			<li><a href="#store-footer" class="manalapan">MANALAPAN</a></li>
@@ -25,7 +25,7 @@
     	<div class="span7" data-motopress-type="static" data-motopress-static-file="static/static-logo.php">
     		<?php get_template_part("static/static-logo"); ?>
     	</div>
-    	<div class="span5 info_box">
+    	<div class="span5 info_box main-site">
             <?php dynamic_sidebar( 'cart-holder' ); ?>
             <div class="box wayne-info">
         		<p class="title">WAYNE, NJ <strong>973-628-4500</strong></p>
@@ -38,7 +38,7 @@
         		<p>Also in <a class="wayne" href="#store-footer">Wayne, NJ</a></p>
             </div>
     	</div>
-        <div class="span5 info_box">
+        <div class="span5 info_box comic-con">
             <?php dynamic_sidebar( 'cart-holder' ); ?>
             <div class="box wayne-info">
                 <p class="title">WAYNE, NJ <strong>973-628-4500</strong></p>

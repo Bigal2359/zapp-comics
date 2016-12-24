@@ -1,6 +1,6 @@
 <?php /* Static Name: Logo */ ?>
 <!-- BEGIN LOGO -->
-<div class="logo pull-left">
+<div class="logo pull-left main-site">
 	<?php if(of_get_option('logo_type') == 'text_logo'){?>
 			<?php if( is_front_page() || is_home() || is_404() ) { ?>
 					<h1 class="logo_h logo_h__txt"><a href="<?php echo home_url(); ?>/" title="<?php bloginfo('description'); ?>" class="logo_link"><?php bloginfo('name'); ?></a></h1>

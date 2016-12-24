@@ -5849,3 +5849,17 @@ header .span8 {
 		display: block;
 	}
 }
+.comic-con,
+.page-template-comiccon .main-site {
+	display: none;
+}
+.page-template-comiccon .comic-con {
+	display: block;
+}
+.page-template-comiccon header.header {
+	background: #056aad;
+}
+.page-template-comiccon .logo_tagline {
+	color: #000;
+	font-weight: bold;
+}
