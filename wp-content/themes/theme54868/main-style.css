@@ -2149,6 +2149,9 @@ body #motopress-main.main-holder .footer-widgets .extra-wrap { padding-left:5px;
 	display:block;
 	z-index:-1;
 }
+.copyright .span6 {
+	width: 100%;
+}
 .footer-widgets4 {
 	position:relative;
 	padding:20px 0 0 0;
