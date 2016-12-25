@@ -39,16 +39,12 @@
             </div>
     	</div>
         <div class="span5 info_box comic-con">
-            <?php dynamic_sidebar( 'cart-holder' ); ?>
-            <div class="box wayne-info">
-                <p class="title">WAYNE, NJ <strong>973-628-4500</strong></p>
-                <p><strong>Hours:</strong> <span>MON-TUES 11-7 |</span> <span>WED 10-8 |</span> <span>TH-FRI 11-8 |</span> <span>SAT 10-7 |</span> <span>SUN 10-6</span></p>
-                <p>Also in <a class="manalapan" href="#store-footer">Manalapan, NJ</a></p>
-            </div>
-            <div class="box manalapan-info">
-                <p class="title">MANALAPAN, NJ <strong>732-617-1333</strong></p>
-                <p><strong>Hours:</strong> <span>MON 11-7 |</span> <span>TUES closed |</span> <span>WED 10-8 |</span> <span>TH-FRI 11-8 |</span> <span>SAT 11-7 |</span> <span>SUN 12-5</span></p>
-                <p>Also in <a class="wayne" href="#store-footer">Wayne, NJ</a></p>
+            <div class="box">
+                <p class="title">GET YOUR BADGES!</p>
+                <div class="counter">
+                    <p>COUNTDOWN TO ZAPP COMIC CON!</p>
+                    <div class="countdown"></div>
+                </div>
             </div>
         </div>
     </div>
