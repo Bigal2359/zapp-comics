@@ -49,25 +49,25 @@
         </div>
     </div>
 </div>
-<div class="row">
+<div class="row main-site">
 	<div class="span12 logo_box" data-motopress-type="static" data-motopress-static-file="static/static-nav.php">
 		<?php get_template_part("static/static-nav"); ?>
         <?php get_template_part("static/static-search"); ?>
-        <nav class="nav nav__primary clearfix comic-con">
-            <ul id="topnav" class="sf-menu sf-js-enabled">
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Artists</a>
-                </li>
-                <li>
-                    <a href="#">Event</a>
-                </li>
-                <li>
-                    <a href="#">Badges</a>
-                </li>
-            </ul>
-        </nav>
 	</div>
+</div>
+<div class="scroll-nav comic-con">
+    <ul>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Artists</a>
+        </li>
+        <li>
+            <a href="#">Event</a>
+        </li>
+        <li>
+            <a href="#">Badges</a>
+        </li>
+    </ul>
 </div>

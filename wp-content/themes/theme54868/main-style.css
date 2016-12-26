@@ -5871,24 +5871,48 @@ header .span8 {
 	color: #000;
 	font-weight: bold;
 }
-.page-template-comiccon .nav__primary .sf-menu {
-	width: 100%;
+.scroll-nav {
+	margin: 0 -10px;
+	overflow: hidden;
 }
-.page-template-comiccon .nav__primary .sf-menu > li {
-	border: 0;
+.scroll-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.scroll-nav li {
 	display: table;
 	float: left;
+	text-align: center;
 	width: 25%;
 }
-.page-template-comiccon .nav__primary .sf-menu > li > a {
+.scroll-nav a {
 	border-left: 1px solid #9e3d0e;
-	display: table-cell;
-	font-size: 30px;
-	text-transform: uppercase;
+    background: #f22400;
+    color: #000;
+    display: table-cell;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-transform: uppercase;
 }
-.page-template-comiccon .nav__primary .sf-menu > li:first-child a {
+.scroll-nav li:first-child a {
 	border-left: 0;
 }
-.page-template-comiccon .logo_box {
-	overflow: hidden;
+@media(min-width: 768px) {
+	.scroll-nav {
+		border-radius: 10px 10px 0 0;
+		margin: 0 auto;
+		width: 724px;
+	}
+	.scroll-nav a {
+		font-size: 30px;
+		padding: 30px 0;
+	}
+}
+@media(min-width: 980px) {
+	.scroll-nav {
+		max-width: 1170px;
+		width: 100%;
+	}
 }
