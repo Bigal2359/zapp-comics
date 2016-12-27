@@ -58,8 +58,8 @@
 					For Store Hours info visit <a href="<?php echo home_url(); ?>/">ZAPPCOMICS.COM</a>
 				</p>
 			</div>
-			<div class="address manapalan-info">
-				<h5>Zapp Comics Manapalan</h5>
+			<div class="address manalapan-info">
+				<h5>Zapp Comics Manalapan</h5>
 				<p>
 					700 Tennent Road<br>
 					Manalapan, NJ<br>
