@@ -636,6 +636,9 @@ header.header .box2:after {
 @media (max-width: 767px) {
 	.info_box { padding:15px 0 10px; }
 }
+.nowrap {
+	white-space: nowrap;
+}
 .logo {
 	float:none;
 	width:100%;
