@@ -5870,8 +5870,12 @@ header .span8 {
 .page-template-comiccon header.header {
 	background: #056aad;
 }
+.page-template-comiccon .logo .logo_h {
+	margin-bottom: 15px;
+}
 .page-template-comiccon .logo_tagline {
 	color: #000;
+	font-size: 29px;
 	font-weight: bold;
 }
 .scroll-nav {
@@ -5932,6 +5936,9 @@ header .span8 {
 	text-align: center;
 	width: 239px;
 }
+.page-template-comiccon header.header .box2 {
+	padding-bottom: 0;
+}
 .counter p {
     color: #000;
     font-size: 16px;
@@ -5941,4 +5948,44 @@ header .span8 {
 	.counter p {
 		font-size: 19px;
 	}
+}
+.countdown {
+	margin-bottom: 0;
+}
+.countdown_amount {
+    background: #1e1e1e;
+    border-radius: 5px;
+    color: #b6b2b1;
+    display: inline-block;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0 3px;
+    padding: 20px 0;
+    width: 70px;
+}
+.countdown_amount:after {
+	content: '';
+    border-top: 4px solid #000;
+    left: 3px;
+    opacity: 0.9;
+    position: absolute;
+    top: 32px;
+    width: 70px;
+}
+.countdown small {
+	display: none;
+}
+@media(min-width: 340px) {
+	.countdown-container {
+		margin: 0 auto;
+		width: 320px;
+	}
+	.countdown_show4 .countdown_section {
+		width: auto;
+	}
+}
+.countdown_section {
+	font-size: 14px;
+	position: relative;
+	text-transform: uppercase;
 }
