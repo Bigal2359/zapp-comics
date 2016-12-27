@@ -41,10 +41,12 @@
 	<div class="span3 comic-con" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-7">
 		<div id="text-8">
 			<h4>Tickets Available in Store Only</h4>
-			<ul>
-				<li><a href="#store-locations" class="wayne">WAYNE</a></li>
-				<li><a href="#store-locations" class="manalapan">MANALAPAN</a></li>
-			</ul>
+			<div class="store-locations">
+				<ul>
+					<li><a href="#store-locations" class="wayne">WAYNE</a></li>
+					<li><a href="#store-locations" class="manalapan">MANALAPAN</a></li>
+				</ul>
+			</div>
 			<div class="address wayne-info">
 				<h5>Zapp Comics Wayne</h5>
 				<p>
@@ -53,7 +55,18 @@
 					07470
 				</p>
 				<p>
-					For Store Hours info visit <a href="https://www.zappcomics.com/">ZAPPCOMICS.COM</a>
+					For Store Hours info visit <a href="<?php echo home_url(); ?>/">ZAPPCOMICS.COM</a>
+				</p>
+			</div>
+			<div class="address manapalan-info">
+				<h5>Zapp Comics Manapalan</h5>
+				<p>
+					700 Tennent Road<br>
+					Manalapan, NJ<br>
+					07726
+				</p>
+				<p>
+					For Store Hours info visit <a href="<?php echo home_url(); ?>/">ZAPPCOMICS.COM</a>
 				</p>
 			</div>
 		</div>
