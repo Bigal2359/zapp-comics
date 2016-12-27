@@ -5919,12 +5919,17 @@ header .span8 {
 		width: 100%;
 	}
 }
+.page-template-comiccon .info_box {
+	padding: 15px 0 10px;
+}
 .page-template-comiccon .info_box .title {
     border-bottom: 5px solid #000;
 	color: #000;
-	font-size: 32px;
+	font-size: 29px;
 	font-weight: bold;
-	margin: 0 auto;
+	margin: 0 auto 5px;
+	padding-bottom: 5px;
+	text-align: center;
 	width: 239px;
 }
 .counter p {
@@ -5934,6 +5939,6 @@ header .span8 {
 }
 @media(min-width: 768px) {
 	.counter p {
-		font-size: 24px;
+		font-size: 19px;
 	}
 }
