@@ -5924,7 +5924,7 @@ header .span8 {
 	}
 }
 .page-template-comiccon .info_box {
-	padding: 15px 0 10px;
+	padding: 0;
 }
 .page-template-comiccon .info_box .title {
     border-bottom: 5px solid #000;
