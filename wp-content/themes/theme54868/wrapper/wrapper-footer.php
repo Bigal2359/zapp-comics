@@ -54,9 +54,6 @@
 					Wayne, NJ<br>
 					07470
 				</p>
-				<p>
-					For Store Hours info visit <a href="<?php echo home_url(); ?>/">ZAPPCOMICS.COM</a>
-				</p>
 			</div>
 			<div class="address manalapan-info">
 				<h5>Zapp Comics Manalapan</h5>
@@ -65,23 +62,25 @@
 					Manalapan, NJ<br>
 					07726
 				</p>
-				<p>
-					For Store Hours info visit <a href="<?php echo home_url(); ?>/">ZAPPCOMICS.COM</a>
-				</p>
 			</div>
+			<p class="more-info">
+				For Store Hours info visit <a href="<?php echo home_url(); ?>/">ZAPPCOMICS.COM</a>
+			</p>
 		</div>
 	</div>
     <div class="span4 comic-con">
     	<div class="footer-container">
     		<h4>Event Location &amp; Hours</h4>
-			<h5>Wayne Fire Co. #1</h5>
-			<p>
-				93 Parish Drive<br>
-				Wayne, NJ 07470
-			</p>
+    		<div class="address">
+    			<h5>Wayne Fire Co. #1</h5>
+				<p>
+					93 Parish Drive<br>
+					Wayne, NJ 07470
+				</p>
+    		</div>
 			<p>9:00AM to 7:00PM</p>
 			<?php dynamic_sidebar( 'google' ); ?>
-			<p><a href="https://www.google.com/maps/place/93+Parish+Dr,+Wayne,+NJ+07470/@40.9145473,-74.262298,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3022a36be5dfb:0x26c0dee60dca6e62!8m2!3d40.914489!4d-74.260086" target="_blank">Get Directions</a></p>
+			<p class="directions"><a href="https://www.google.com/maps/place/93+Parish+Dr,+Wayne,+NJ+07470/@40.9145473,-74.262298,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3022a36be5dfb:0x26c0dee60dca6e62!8m2!3d40.914489!4d-74.260086" target="_blank">Get Directions</a></p>
     	</div>
 	</div>
     <div class="span5 comic-con">
