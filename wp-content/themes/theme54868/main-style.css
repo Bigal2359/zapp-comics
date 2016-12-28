@@ -5965,7 +5965,7 @@ header .span8 {
 }
 .countdown_amount:after {
 	content: '';
-    border-top: 4px solid #000;
+    border-top: 3px solid #000;
     left: 3px;
     opacity: 0.9;
     position: absolute;
@@ -5988,4 +5988,80 @@ header .span8 {
 	font-size: 14px;
 	position: relative;
 	text-transform: uppercase;
+}
+.page-template-comiccon .content-holder {
+    background: #2f2f2f;
+    color: #fff;
+    font-weight: bold;
+    padding: 25px 10px;
+}
+.page-template-comiccon .content-holder .container {
+    background: #3b3b3b;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.page-template-comiccon .content-holder .container h2 {
+    color: #fff;
+    line-height: 1.1;
+}
+@media(min-width: 768px) {
+	.page-template-comiccon .content-holder .container {
+	    padding: 0;
+	}
+	.page-template-comiccon .content-holder .container .span12 {
+	    width: auto;
+	}
+	.page-template-comiccon .content-holder .container .row {
+	    padding: 10px 20px;
+	}
+	.page-template-comiccon .content-holder .container h2 {
+	    font-size: 40px;
+	}
+
+	.page-template-comiccon .content-holder .container p {
+	    font-size: 20px;
+	    line-height: 1.4;
+	}	
+}
+.comic-con-video {
+	width: 100%;
+}
+@media(min-width: 980px) {
+	.comic-con-video {
+		float: right;
+		margin-bottom: 70px;
+	    margin-left: 25px;
+	    max-width: 649px;
+	    width: 60%;
+	}
+}
+@media(min-width: 1200px) {
+	.comic-con-video {
+		margin-bottom: 0;
+	}
+	.page-template-comiccon .content-holder .container p {
+	    font-size: 22px;
+	}
+}
+.page-template-comiccon .footer-widgets4 > div {
+	margin: 0;
+}
+@media(min-width: 980px) {
+	.page-template-comiccon .footer-widgets4 > .comic-con {
+		display: table;
+	}
+	.page-template-comiccon .footer-widgets4 > div {
+		float: left;
+		height: 350px;
+		width: 33.33333333%;
+	}
+	.page-template-comiccon .footer-widgets4 .footer-container {
+		border-left: 1px solid #000;
+		display: table-cell;
+		padding: 0 25px 25px;
+	}
+	.page-template-comiccon .footer-widgets4 .span3 .footer-container {
+		border-left: 0;
+	}
 }
