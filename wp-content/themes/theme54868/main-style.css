@@ -6097,7 +6097,7 @@ header .span8 {
 	margin-bottom: 20px;
 }
 .page-template-comiccon .footer-widgets4 iframe {
-	height: 189px;
+	height: 134px;
 }
 @media(min-width: 768px) {
 	.page-template-comiccon .footer-widgets4 > .comic-con {
@@ -6108,7 +6108,7 @@ header .span8 {
 	}
 	.page-template-comiccon .footer-widgets4 > div {
 		float: left;
-		height: 480px;
+		height: 400px;
 		width: 33.33333333%;
 	}
 	.page-template-comiccon .footer-widgets4 .footer-container {
@@ -6126,6 +6126,9 @@ header .span8 {
 @media(min-width: 980px) {
 	.page-template-comiccon .footer-widgets4 > div {
 		height: 455px;
+	}
+	.page-template-comiccon .footer-widgets4 iframe {
+		max-width: 234px;
 	}
 }
 @media(min-width: 1200px) {
