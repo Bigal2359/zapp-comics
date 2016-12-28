@@ -38,8 +38,8 @@
         	<p><strong><a href="https://www.google.com/maps/dir/''/700+Tennent+Rd,+Manalapan+Township,+NJ+07726/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c3d3d74f702797:0x6f042365caf4db83?sa=X&ved=0CB4QwwUwAGoVChMIg4TGjceqyAIVQ3o-Ch0-uQaV" target="_blank">Get Directions</a></strong></p>
         </div>
 	</div>
-	<div class="span3 comic-con" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-7">
-		<div id="text-8">
+	<div class="span3 comic-con">
+		<div id="text-8" class="footer-container">
 			<h4>Tickets Available in Store Only</h4>
 			<div class="store-locations">
 				<ul>
@@ -71,21 +71,23 @@
 			</div>
 		</div>
 	</div>
-    <div class="span4 comic-con" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-8">
-		<?php dynamic_sidebar("footer-sidebar-8"); ?>
+    <div class="span4 comic-con">
+    	<div class="footer-container">
+    		<h4>Event Location &amp; Hours</h4>
+			<h5>Wayne Fire Co. #1</h5>
+			<p>
+				93 Parish Drive<br>
+				Wayne, NJ 07470
+			</p>
+			<p>9:00AM to 7:00PM</p>
+			<?php dynamic_sidebar( 'google' ); ?>
+			<p><a href="https://www.google.com/maps/place/93+Parish+Dr,+Wayne,+NJ+07470/@40.9145473,-74.262298,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3022a36be5dfb:0x26c0dee60dca6e62!8m2!3d40.914489!4d-74.260086" target="_blank">Get Directions</a></p>
+    	</div>
 	</div>
-    <div class="span5 comic-con" data-motopress-type="dynamic-sidebar">
-		<?php dynamic_sidebar( 'google' ); ?>
-        <div class="caption_info wayne-info">
-			<p><strong>Phone:</strong> <span>973-628-4500</span></p>
-			<p><strong>Address:</strong> 574 Valley Ridge Shopping Center</p>
-        	<p><strong><a href="https://www.google.com/maps/dir//Zapp!+Comics,+Valley+Ridge+Shopping+Center,+574+Valley+Rd,+Wayne,+NJ+07470/@40.9267611,-74.2301051,14.61z/data=!4m12!1m3!3m2!1s0x0000000000000000:0x5426e66d52740f60!2sZapp*21+Comics!4m7!1m0!1m5!1m1!1s0x89c30272f50955a1:0x5426e66d52740f60!2m2!1d-74.2266233!2d40.931354" target="_blank">Get Directions</a></strong></p>
-        </div>
-		<div class="caption_info manalapan-info">
-			<p><strong>Phone:</strong> <span>732-617-1333</span></p>
-			<p><strong>Address:</strong> 700 Tennent Road, Manalapan, NJ 07726</p>
-        	<p><strong><a href="https://www.google.com/maps/dir/''/700+Tennent+Rd,+Manalapan+Township,+NJ+07726/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c3d3d74f702797:0x6f042365caf4db83?sa=X&ved=0CB4QwwUwAGoVChMIg4TGjceqyAIVQ3o-Ch0-uQaV" target="_blank">Get Directions</a></strong></p>
-        </div>
+    <div class="span5 comic-con">
+    	<div class="footer-container">
+    		<img class="comic-con-venue" src="http://6d2.472.myftpupload.com/wp-content/uploads/2016/12/comic-con-venue.jpg" alt="Zapp Comic Con Venue">
+    	</div>
 	</div>
 </div>
 <div class="row copyright">
