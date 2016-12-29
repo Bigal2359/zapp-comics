@@ -20,5 +20,44 @@
 		</div>
 	</div>
 </div>
+<div class="motopress-wrapper content-holder clearfix">
+	<h2>About:</h2>
+	<div class="container">
+		<div class="row">
+			<img class="img-badges" src="">
+			<div class="content">
+				<h3>
+					Wayne Fire Co. #1<br>
+					SATURDAY MARCH 18, 2017<br>
+					9AM - 7PM
+				</h3>
+				<p>
+					Over 300 Long Boxes of Comics, Rare Wall Books, Artist Alley, Live Painting, Art Fusion Sesstions, Comic Book Tattoo Contest, Action Figures, Toys, Scholarship Auction for the Kubert School, Free Raffles, and more!!
+				</p>
+				<p>
+					<a class="cap" href="#">Get Directions</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="motopress-wrapper content-holder clearfix">
+	<h2>Artists:</h2>
+	<div class="container">
+		<div class="row">
+			<div class="content">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="motopress-wrapper content-holder clearfix">
+	<h2>Events:</h2>
+	<div class="container">
+		<div class="row">
+			<div class="content">
+			</div>
+		</div>
+	</div>
+</div>
 
 <?php get_footer(); ?>
