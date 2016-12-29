@@ -1,6 +1,6 @@
 <?php /* Template Name: Comiccon */ get_header(); ?>
 
-<div class="motopress-wrapper content-holder clearfix">
+<div class="motopress-wrapper content-holder main-section clearfix">
 	<div class="container">
 		<div class="row">
 			<?php do_action( 'cherry_before_home_page_content' ); ?>
@@ -20,7 +20,7 @@
 		</div>
 	</div>
 </div>
-<div class="motopress-wrapper content-holder clearfix">
+<div class="motopress-wrapper content-holder about-section clearfix">
 	<h2>About:</h2>
 	<div class="container">
 		<div class="row">
@@ -41,7 +41,7 @@
 		</div>
 	</div>
 </div>
-<div class="motopress-wrapper content-holder clearfix">
+<div class="motopress-wrapper content-holder artists-section clearfix">
 	<h2>Artists:</h2>
 	<div class="container">
 		<div class="row">
@@ -50,7 +50,7 @@
 		</div>
 	</div>
 </div>
-<div class="motopress-wrapper content-holder clearfix">
+<div class="motopress-wrapper content-holder events-section clearfix">
 	<h2>Events:</h2>
 	<div class="container">
 		<div class="row">
