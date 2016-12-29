@@ -60,16 +60,16 @@
 <div class="scroll-nav comic-con">
     <ul>
         <li>
-            <a href="#">About</a>
+            <a href="#" data-scroll-nav='0'>About</a>
         </li>
         <li>
-            <a href="#">Artists</a>
+            <a href="#" data-scroll-nav='1'>Artists</a>
         </li>
         <li>
-            <a href="#">Event</a>
+            <a href="#" data-scroll-nav='2'>Event</a>
         </li>
         <li>
-            <a href="#">Badges</a>
+            <a href="#" data-scroll-nav='3'>Badges</a>
         </li>
     </ul>
 </div>

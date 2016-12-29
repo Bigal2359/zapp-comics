@@ -20,7 +20,7 @@
 		</div>
 	</div>
 </div>
-<div class="motopress-wrapper content-holder about-section clearfix">
+<div class="motopress-wrapper content-holder about-section clearfix" data-scroll-index='0'>
 	<h2>About:</h2>
 	<div class="container">
 		<div class="row">
@@ -41,7 +41,7 @@
 		</div>
 	</div>
 </div>
-<div class="motopress-wrapper content-holder artists-section clearfix">
+<div class="motopress-wrapper content-holder artists-section clearfix" data-scroll-index='1'>
 	<h2>Artists:</h2>
 	<div class="container">
 		<div class="row">
@@ -50,7 +50,7 @@
 		</div>
 	</div>
 </div>
-<div class="motopress-wrapper content-holder events-section clearfix">
+<div class="motopress-wrapper content-holder events-section clearfix" data-scroll-index='2'>
 	<h2>Events:</h2>
 	<div class="container">
 		<div class="row">
