@@ -42,7 +42,6 @@
             <div class="box">
                 <p class="title">GET YOUR BADGES!</p>
                 <div class="counter">
-                    <p>COUNTDOWN TO ZAPP COMIC CON!</p>
                     <div class="countdown-container">
                         <?php dynamic_sidebar( 'sidebar' ); ?>
                     </div>

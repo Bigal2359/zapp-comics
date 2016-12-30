@@ -5948,14 +5948,14 @@ header .span8 {
 .page-template-comiccon header.header .box2 {
 	padding-bottom: 0;
 }
-.counter p {
+.counter h3 {
     color: #000;
     font-size: 16px;
     font-weight: bold;
 }
 @media(min-width: 768px) {
-	.counter p {
-		font-size: 19px;
+	.counter h3 {
+		font-size: 17.9px;
 	}
 }
 .countdown {
