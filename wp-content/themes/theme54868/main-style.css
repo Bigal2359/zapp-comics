@@ -5862,7 +5862,7 @@ header .span8 {
 }
 .page-template-comiccon p {
 	font-size: 15px;
-	line-height: 1.2;
+	line-height: 1.4;
 }
 @media(min-width: 768px) {
 	.page-template-comiccon p {
@@ -6037,6 +6037,11 @@ header .span8 {
 .page-template-comiccon .content-holder h2.make-red {
 	color: #f32602;
 }
+.page-template-comiccon .content-holder .container h3 {
+    color: #fff;
+    font-size: 21px;
+    line-height: 1.4;
+}
 @media(min-width: 768px) {
 	.page-template-comiccon .content-holder .container {
 	    padding: 0;
@@ -6055,12 +6060,18 @@ header .span8 {
 	.page-template-comiccon .content-holder .container h1,
 	.page-template-comiccon .content-holder h2 {
 	    font-size: 40px;
+	}
+	.page-template-comiccon .content-holder .container h3 {
+	    font-size: 30px;
 	}	
 }
 .comic-con-video {
 	width: 100%;
 }
 @media(min-width: 980px) {
+	.page-template-comiccon .about-section .content {
+	    margin-right: 50px;
+	}
 	.page-template-comiccon .content-holder h2 {
 		width: 940px;
 	}
@@ -6069,6 +6080,10 @@ header .span8 {
 		margin: 0 0 70px 25px;
 	    max-width: 649px;
 	    width: 60%;
+	}
+	.img-badges {
+		float: left;
+		margin-right: 40px;
 	}
 }
 @media(min-width: 1200px) {
@@ -6083,6 +6098,11 @@ header .span8 {
 	line-height: 1.2;
 	padding-bottom: 0;
 	text-align: center;
+}
+@media(min-width: 768px) {
+	.page-template-comiccon .footer-widgets4 {
+		padding-top: 45px;
+	}
 }
 .page-template-comiccon .footer-widgets4 > div {
 	margin: 0;
