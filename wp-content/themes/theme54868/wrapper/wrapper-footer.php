@@ -90,12 +90,7 @@
 	</div>
 </div>
 <div class="row copyright">
-	<div class="span6 pull-left main-site" data-motopress-type="static" data-motopress-static-file="static/static-footer-text.php">
+	<div class="span6 pull-left" data-motopress-type="static" data-motopress-static-file="static/static-footer-text.php">
 		<?php get_template_part("static/static-footer-text"); ?>
-	</div>
-	<div class="span6 pull-left comic-con">
-		<div id="footer-text" class="footer-text">
-			<strong>ZAPP COMIC CON</strong> is proudly powered by <a href="#">WordPress Entries (RSS)</a> and <a href="#">Comments (RSS) Privacy Policy</a>
-		</div>
 	</div>
 </div>
