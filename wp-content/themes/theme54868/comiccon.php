@@ -21,10 +21,10 @@
 	</div>
 </div>
 <div class="motopress-wrapper content-holder about-section clearfix" data-scroll-index='0'>
-	<h2>About:</h2>
+	<h2 class="make-red">About:</h2>
 	<div class="container">
 		<div class="row">
-			<img class="img-badges" src="">
+			<img class="img-badges" src="http://6d2.472.myftpupload.com/wp-content/uploads/2016/12/badges.png" alt="Zapp Comic Con Badges">
 			<div class="content">
 				<h3>
 					Wayne Fire Co. #1<br>
