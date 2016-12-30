@@ -6022,9 +6022,20 @@ header .span8 {
     padding: 10px;
     text-align: center;
 }
-.page-template-comiccon .content-holder .container h2 {
-    color: #fff;
+.page-template-comiccon .content-holder .container h1 {
+	background: transparent;
+	color: #fff;
+	line-height: 1.2;
+	padding: 0;
+	text-transform: uppercase;
+}
+.page-template-comiccon .content-holder h2 {
+    color: #000;
     line-height: 1.2;
+    text-transform: uppercase;
+}
+.page-template-comiccon .content-holder h2.make-red {
+	color: #f32602;
 }
 @media(min-width: 768px) {
 	.page-template-comiccon .content-holder .container {
@@ -6036,7 +6047,13 @@ header .span8 {
 	.page-template-comiccon .content-holder .container .row {
 	    padding: 10px 20px;
 	}
-	.page-template-comiccon .content-holder .container h2 {
+	.page-template-comiccon .content-holder h2 {
+		color: #000;
+		margin: 0 auto 30px;
+		width: 724px;
+	}
+	.page-template-comiccon .content-holder .container h1,
+	.page-template-comiccon .content-holder h2 {
 	    font-size: 40px;
 	}	
 }
@@ -6044,15 +6061,20 @@ header .span8 {
 	width: 100%;
 }
 @media(min-width: 980px) {
+	.page-template-comiccon .content-holder h2 {
+		width: 940px;
+	}
 	.comic-con-video {
 		float: right;
-		margin-bottom: 70px;
-	    margin-left: 25px;
+		margin: 0 0 70px 25px;
 	    max-width: 649px;
 	    width: 60%;
 	}
 }
 @media(min-width: 1200px) {
+	.page-template-comiccon .content-holder h2 {
+		width: 1170px;
+	}
 	.comic-con-video {
 		margin-bottom: 0;
 	}
