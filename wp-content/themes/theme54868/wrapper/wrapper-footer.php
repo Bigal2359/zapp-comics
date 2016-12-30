@@ -12,7 +12,7 @@
     	</div>
     </div>
 <?php } ?>
-<div id="store-footer" class="row footer-widgets4">
+<div id="store-footer" class="row footer-widgets4" data-scroll-index='3'>
 	<div class="store-locations main-site">
 		<ul>
 			<li><a href="#store-locations" class="wayne">WAYNE</a></li>
