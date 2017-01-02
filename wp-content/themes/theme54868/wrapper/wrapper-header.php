@@ -65,7 +65,7 @@
             <a href="#" data-scroll-nav='1'>Artists</a>
         </li>
         <li>
-            <a href="#" data-scroll-nav='2'>Event</a>
+            <a href="#" data-scroll-nav='2'>Events</a>
         </li>
         <li>
             <a href="#" data-scroll-nav='3'>Badges</a>
