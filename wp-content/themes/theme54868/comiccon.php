@@ -56,6 +56,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="content">
+				<?php echo do_shortcode('[pjc_slideshow slide_type="comic-con-events"]'); ?>
 			</div>
 		</div>
 	</div>

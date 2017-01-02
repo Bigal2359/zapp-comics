@@ -6198,7 +6198,8 @@ header .span8 {
 	    font-size: 25px;
 	}
 }
-.page-template-comiccon .artists-section .container {
+.page-template-comiccon .artists-section .container,
+.page-template-comiccon .events-section .container {
 	background: transparent;
 }
 #wonderplugincarousel-1 .amazingcarousel-item-container {
