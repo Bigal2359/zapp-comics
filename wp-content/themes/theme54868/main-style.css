@@ -6198,3 +6198,23 @@ header .span8 {
 	    font-size: 25px;
 	}
 }
+.page-template-comiccon .artists-section .container {
+	background: transparent;
+}
+#wonderplugincarousel-1 .amazingcarousel-item-container {
+	background-color: transparent !important;
+	border: 0 !important;
+}
+#wonderplugincarousel-1 .amazingcarousel-title {
+	color: #fff !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    text-shadow: none !important;
+    text-transform: uppercase;
+}
+.amazingcarousel-image div:nth-child(3) {
+	opacity: 0 !important;
+}
+.amazingcarousel-image-fix-wrapper {
+	border-radius: 10px;
+}
