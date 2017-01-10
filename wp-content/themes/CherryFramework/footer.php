@@ -51,6 +51,10 @@
 			}
 		}
 
+		function scrollToSection() {
+			
+		}
+
 		(function($) {
 		    'use strict';
 
