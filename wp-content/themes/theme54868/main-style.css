@@ -6197,6 +6197,9 @@ header .span8 {
 	.page-template-comiccon .footer-widgets4 .address h5 {
 	    font-size: 25px;
 	}
+	.page-template-comiccon .main-section p {
+		margin-top: 8%;
+	}
 }
 .page-template-comiccon .artists-section .container,
 .page-template-comiccon .events-section .container {
