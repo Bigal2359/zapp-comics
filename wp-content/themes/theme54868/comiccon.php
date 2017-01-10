@@ -35,7 +35,7 @@
 					Over 300 Long Boxes of Comics, Rare Wall Books, Artist Alley, Live Painting, Art Fusion Sesstions, Comic Book Tattoo Contest, Action Figures, Toys, Scholarship Auction for the Kubert School, Free Raffles, and more!!
 				</p>
 				<p>
-					<a class="cap" href="https://www.google.com/maps/place/93+Parish+Dr,+Wayne,+NJ+07470/@40.9145473,-74.262298,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3022a36be5dfb:0x26c0dee60dca6e62!8m2!3d40.914489!4d-74.260086" target="_blank">Get Directions</a>
+					<a class="more-info" href="#store-footer">More Information</a>
 				</p>
 			</div>
 		</div>
