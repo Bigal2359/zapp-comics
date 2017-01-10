@@ -40,7 +40,7 @@
 	</div>
 	<div class="span3 comic-con">
 		<div id="text-8" class="footer-container">
-			<h4>Tickets Available in Store Only</h4>
+			<h4>Badges Available <span class="nowrap">in Store Only</span></h4>
 			<div class="store-locations">
 				<ul>
 					<li><a href="#store-locations" class="wayne">WAYNE</a></li>
