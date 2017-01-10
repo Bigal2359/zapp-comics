@@ -6065,8 +6065,8 @@ header .span8 {
 	    font-size: 30px;
 	}	
 }
-.comic-con-video {
-	width: 100%;
+.fluid-width-video-wrapper {
+	margin-bottom: 25px;
 }
 @media(min-width: 980px) {
 	.page-template-comiccon .about-section .content {
@@ -6075,7 +6075,7 @@ header .span8 {
 	.page-template-comiccon .content-holder h2 {
 		width: 940px;
 	}
-	.comic-con-video {
+	.fluid-width-video-wrapper {
 		float: right;
 		margin: 0 0 70px 25px;
 	    max-width: 649px;
@@ -6090,7 +6090,7 @@ header .span8 {
 	.page-template-comiccon .content-holder h2 {
 		width: 1170px;
 	}
-	.comic-con-video {
+	.fluid-width-video-wrapper {
 		margin-bottom: 0;
 	}
 }

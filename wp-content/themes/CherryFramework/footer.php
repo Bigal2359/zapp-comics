@@ -39,6 +39,18 @@
     		}, 900, 'swing');
 		});
 
+		$( window ).resize(function() {
+			adjustVideo();
+		});
+
+		function adjustVideo() {
+		    if( $('body').hasClass('page-template-comiccon') && $(window).width() > 980) {
+				$('.fluid-width-video-wrapper').css('padding-top','33%');
+			} else {
+				$('.fluid-width-video-wrapper').css('padding-top','56.29139072847682%');
+			}
+		}
+
 		(function($) {
 		    'use strict';
 
@@ -104,6 +116,9 @@
 		    };
 		}(jQuery));
 
+		setTimeout(function() { 
+			adjustVideo();
+		}, 1000);
 		$.scrollIt();
 	</script>
 </body>
