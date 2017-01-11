@@ -85,7 +85,7 @@
 	</div>
     <div class="span5 comic-con">
     	<div class="footer-container">
-    		<img class="comic-con-venue" src="<?php echo home_url(); ?>/wp-content/uploads/2016/12/comic-con-venue.jpg" alt="Zapp Comic Con Venue">
+    		<?php dynamic_sidebar("footer-sidebar-4"); ?>
     	</div>
 	</div>
 </div>
