@@ -20,7 +20,7 @@
 		</div>
 	</div>
 </div>
-<div class="motopress-wrapper content-holder about-section clearfix" data-scroll-index='0'>
+<div id="about-section" class="motopress-wrapper content-holder about-section clearfix">
 	<h2 class="make-red">About:</h2>
 	<div class="container">
 		<div class="row">
@@ -35,13 +35,13 @@
 					Over 300 Long Boxes of Comics, Rare Wall Books, Artist Alley, Live Painting, Art Fusion Sesstions, Comic Book Tattoo Contest, Action Figures, Toys, Scholarship Auction for the Kubert School, Free Raffles, and more!!
 				</p>
 				<p>
-					<a class="more-info" href="#store-footer">More Information</a>
+					<a class="more-info scroll-btn" href="#store-footer">More Information</a>
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="motopress-wrapper content-holder artists-section clearfix" data-scroll-index='1'>
+<div id="artists-section" class="motopress-wrapper content-holder artists-section clearfix">
 	<h2>Artists:</h2>
 	<div class="container">
 		<div class="row">
@@ -51,7 +51,7 @@
 		</div>
 	</div>
 </div>
-<div class="motopress-wrapper content-holder events-section clearfix" data-scroll-index='2'>
+<div id="events-section" class="motopress-wrapper content-holder events-section clearfix">
 	<h2>Events:</h2>
 	<div class="container">
 		<div class="row">

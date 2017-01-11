@@ -15,8 +15,8 @@
 <div id="store-footer" class="row footer-widgets4" data-scroll-index='3'>
 	<div class="store-locations main-site">
 		<ul>
-			<li><a href="#store-locations" class="wayne">WAYNE</a></li>
-			<li><a href="#store-locations" class="manalapan">MANALAPAN</a></li>
+			<li><a href="#store-locations" class="wayne scroll-btn">WAYNE</a></li>
+			<li><a href="#store-locations" class="manalapan scroll-btn">MANALAPAN</a></li>
 		</ul>
 	</div>
 	<div class="span3 main-site" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="footer-sidebar-7">
@@ -43,8 +43,8 @@
 			<h4>Badges Available <span class="nowrap">in Store Only</span></h4>
 			<div class="store-locations">
 				<ul>
-					<li><a href="#store-locations" class="wayne">WAYNE</a></li>
-					<li><a href="#store-locations" class="manalapan">MANALAPAN</a></li>
+					<li><a href="#store-locations" class="wayne scroll-btn">WAYNE</a></li>
+					<li><a href="#store-locations" class="manalapan scroll-btn">MANALAPAN</a></li>
 				</ul>
 			</div>
 			<div class="address wayne-info">

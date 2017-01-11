@@ -22,21 +22,18 @@
 	<?php } ?>
 	<?php wp_footer(); ?> <!-- this is used by many Wordpress features and for plugins to work properly -->
 	<script>
-		$( 'a.wayne, a.manalapan' ).click(function(e) {
+		$('.scroll-btn').click(function(e) {
 			e.preventDefault();
 
 			var target = this.hash;
-    		var $target = $(target);
 
 			if($(this).hasClass('manalapan')) {
 				$( 'body' ).addClass('location-2');
 			} else {
 				$( 'body' ).removeClass('location-2');
 			}
-			
-			$('html, body').stop().animate({
-        		'scrollTop': $target.offset().top
-    		}, 900, 'swing');
+
+			scrollToSection(target);
 		});
 
 		$( window ).resize(function() {
@@ -51,79 +48,15 @@
 			}
 		}
 
-		function scrollToSection() {
-			
+		function scrollToSection(target) {
+			$('html, body').stop().animate({
+        		'scrollTop': $(target).offset().top
+    		}, 600, 'linear');
 		}
-
-		(function($) {
-		    'use strict';
-
-		    /*var pluginName = 'ScrollIt',
-		        pluginVersion = '1.0.3';*/
-
-		    /*
-		     * OPTIONS
-		     */
-		    var defaults = {
-		        easing: 'linear',
-		        scrollTime: 600
-		    };
-
-		    $.scrollIt = function(options) {
-
-		        /*
-		         * DECLARATIONS
-		         */
-		        var settings = $.extend(defaults, options),
-		            active = 0,
-		            lastIndex = $('[data-scroll-index]:last').attr('data-scroll-index');
-
-		        /*
-		         * METHODS
-		         */
-
-		        /**
-		         * navigate
-		         *
-		         * sets up navigation animation
-		         */
-		        var navigate = function(ndx) {
-		            if(ndx < 0 || ndx > lastIndex) return;
-
-		            var targetTop = $('[data-scroll-index=' + ndx + ']').offset().top + 1;
-		            $('html,body').animate({
-		                scrollTop: targetTop,
-		                easing: settings.easing
-		            }, settings.scrollTime);
-		        };
-
-		        /**
-		         * doScroll
-		         *
-		         * runs navigation() when criteria are met
-		         */
-		        var doScroll = function (e) {
-		            var target = $(e.target).closest("[data-scroll-nav]").attr('data-scroll-nav') ||
-		            $(e.target).closest("[data-scroll-goto]").attr('data-scroll-goto');
-		            navigate(parseInt(target));
-		        };
-
-		        /*
-		         * runs methods
-		         */
-
-		        $('body').on('click','[data-scroll-nav], [data-scroll-goto]', function(e){
-		            e.preventDefault();
-		            doScroll(e);
-		        });
-
-		    };
-		}(jQuery));
 
 		setTimeout(function() { 
 			adjustVideo();
 		}, 1000);
-		$.scrollIt();
 	</script>
 </body>
 </html>
