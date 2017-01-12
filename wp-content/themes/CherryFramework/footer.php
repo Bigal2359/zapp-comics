@@ -36,12 +36,16 @@
 			scrollToSection(target);
 		});
 
-		$( window ).resize(function() {
-			adjustVideo();
-		});
+		function isComicCon() {
+			if($('body').hasClass('page-template-comiccon')) {
+				return true;
+			} else {
+				return false;
+			}
+		}
 
 		function adjustVideo() {
-		    if( $('body').hasClass('page-template-comiccon') && $(window).width() > 980) {
+		    if($(window).width() > 980) {
 				$('.fluid-width-video-wrapper').css('padding-top','33%');
 			} else {
 				$('.fluid-width-video-wrapper').css('padding-top','56.29139072847682%');
@@ -54,9 +58,19 @@
     		}, 600, 'linear');
 		}
 
-		setTimeout(function() { 
-			adjustVideo();
-		}, 1000);
+		function initComicCon() {
+			if (isComicCon()) {
+				setTimeout(function() { 
+					adjustVideo();
+				}, 1000);
+
+				$( window ).resize(function() {
+					adjustVideo();
+				});
+			}
+		}
+
+		initComicCon();
 	</script>
 </body>
 </html>
