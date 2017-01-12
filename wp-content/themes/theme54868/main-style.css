@@ -6155,6 +6155,10 @@ header .span8 {
 .comic-con.google-map {
 	margin-bottom: 10px;
 }
+.comic-con .footer-container img {
+	max-width: 333px;
+	width: 100%;
+}
 @media(min-width: 768px) {
 	.page-template-comiccon .footer-widgets4 > .comic-con {
 		display: table;
