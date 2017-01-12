@@ -6152,6 +6152,9 @@ header .span8 {
 .page-template-comiccon .footer-widgets4 iframe {
 	height: 134px;
 }
+.comic-con.google-map {
+	margin-bottom: 10px;
+}
 @media(min-width: 768px) {
 	.page-template-comiccon .footer-widgets4 > .comic-con {
 		display: table;
