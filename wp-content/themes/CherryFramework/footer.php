@@ -58,6 +58,10 @@
     		}, 600, 'linear');
 		}
 
+		function copyrightYear() {
+			$('.copyright-year').html(new Date().getFullYear());
+		}
+
 		function initComicCon() {
 			if (isComicCon()) {
 				setTimeout(function() { 
@@ -71,6 +75,7 @@
 		}
 
 		initComicCon();
+		copyrightYear();
 	</script>
 </body>
 </html>
