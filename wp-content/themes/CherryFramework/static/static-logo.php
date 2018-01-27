@@ -21,8 +21,6 @@
 	<?php } ?>
 </div>
 <div class="logo pull-left comic-con">
-	<a href="<?php echo home_url(); ?>/" class="logo_h logo_h__img"><img src="http://6d2.472.myftpupload.com/wp-content/uploads/2016/12/zapp-comic-con-logo.png" alt="Zapp Comic Con, Saturday, March 18, 2017" title="Zapp Comic Con, Saturday, March 18, 2017"></a>
-
-	<p class="logo_tagline">SATURDAY <span class="nowrap">MARCH 18, 2017</span></p><!-- Site Tagline -->
+	<a href="<?php echo home_url(); ?>/zappcomiccon/" class="logo_h logo_h__img"><img src="http://6d2.472.myftpupload.com/wp-content/uploads/2016/12/zapp-comic-con-logo.png" alt="Zapp Comic Con, Saturday, March 18, 2017" title="Zapp Comic Con, Saturday, March 18, 2017"></a>
 </div>
 <!-- END LOGO -->
