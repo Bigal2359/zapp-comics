@@ -5860,6 +5860,9 @@ header .span8 {
 		display: block;
 	}
 }
+.page-template-comiccon .logo .logo_h img {
+	max-width: 512px;
+}
 .page-template-comiccon p {
 	font-size: 15px;
 	line-height: 1.4;
