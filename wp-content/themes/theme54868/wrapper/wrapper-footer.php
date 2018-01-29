@@ -40,7 +40,7 @@
 	</div>
 	<div class="span3 comic-con">
 		<div id="text-8" class="footer-container">
-			<h4>Badges Available <span class="nowrap">in Store Only</span></h4>
+			<h4>Badges Available <span class="nowrap">in Store &amp; <a href="https://www.zappcomics.com/product/zapp-comic-con-tickets/">Online</a></span></h4>
 			<div class="store-locations">
 				<ul>
 					<li><a href="#store-locations" class="wayne scroll-btn">WAYNE</a></li>
