@@ -5969,7 +5969,7 @@ header .span8 {
     border-radius: 5px;
     color: #b6b2b1;
     display: inline-block;
-    font-size: 45px;
+    font-size: 45px !important;
     font-weight: bold;
     margin: 0 3px;
     padding: 20px 0;
@@ -5997,7 +5997,7 @@ header .span8 {
 	}
 }
 .countdown_section {
-	font-size: 14px;
+	font-size: 14px !important;
 	position: relative;
 	text-transform: uppercase;
 }
