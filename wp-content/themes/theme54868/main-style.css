@@ -6207,9 +6207,6 @@ header .span8 {
 	.page-template-comiccon .footer-widgets4 .address h5 {
 	    font-size: 25px;
 	}
-	.page-template-comiccon .main-section p {
-		margin-top: 8%;
-	}
 }
 .page-template-comiccon .artists-section .container,
 .page-template-comiccon .events-section .container {
@@ -6231,4 +6228,18 @@ header .span8 {
 }
 .amazingcarousel-image-fix-wrapper {
 	border-radius: 10px;
+}
+.video-wrapper {
+    height: 0;
+    margin-bottom: 40px;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    position: relative;
+}
+.video-wrapper iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
