@@ -40,7 +40,7 @@
 	</div>
 	<div class="span3 comic-con">
 		<div id="text-8" class="footer-container">
-			<h4>Badges Available <span class="nowrap">in Store &amp; <a href="https://www.zappcomics.com/product/zapp-comic-con-tickets/">Online</a></span></h4>
+			<h4>Badges Available <span class="nowrap">in Store &amp; <a href="https://www.zappcomics.com/product/zapp-comic-con-tickets/" target="_blank">Online</a></span></h4>
 			<div class="store-locations">
 				<ul>
 					<li><a href="#store-locations" class="wayne scroll-btn">WAYNE</a></li>
@@ -64,7 +64,7 @@
 				</p>
 			</div>
 			<p class="more-info">
-				For Store Hours info visit <a href="<?php echo home_url(); ?>/">ZAPPCOMICS.COM</a>
+				For Store Hours info visit <a href="<?php echo home_url(); ?>/" target="_blank">ZAPPCOMICS.COM</a>
 			</p>
 		</div>
 	</div>
