@@ -5915,6 +5915,9 @@ header .span8 {
     padding: 10px 0;
     text-transform: uppercase;
 }
+.scroll-nav a:hover {
+	background: #fffc00;
+}
 .scroll-nav li:first-child a {
 	border-left: 0;
 }
